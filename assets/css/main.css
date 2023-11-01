@@ -708,7 +708,7 @@ input:focus {
 /* Untuk layar dengan lebar antara 376px dan 425px */
 @media (min-width: 376px) and (max-width: 425px) {
   html {
-    font-size: 80%;
+    font-size: 98%;
   }
 
   .navbar-scroll {
@@ -786,8 +786,8 @@ input:focus {
   }
 
   .title-movie-container::before {
-    right: 20px;
-    transform: translateY(-7px);
+    right: 2px;
+    transform: translateY(-8px);
   }
 
   .main-section {
@@ -831,7 +831,7 @@ input:focus {
 /* Untuk layar dengan lebar lebih besar dari 425px */
 @media (min-width: 426px) and (max-width: 768px) {
   html {
-    font-size: 95%;
+    font-size: 100%;
   }
 
   .navbar-scroll {
