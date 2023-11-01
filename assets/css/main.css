@@ -109,7 +109,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  
+
   width: 2px;
   height: 25px;
   background-color: var(--primary);
@@ -259,7 +259,8 @@ body {
   overflow: hidden;
 }
 
-.movies-box, .series-box {
+.movies-box,
+.series-box {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -268,7 +269,6 @@ body {
 
 .title-movie-container {
   width: 150px;
-  
   position: relative;
   display: block;
   text-align: start;
@@ -300,7 +300,6 @@ body {
   border: 1px solid #ffd83da7;
   border-radius: 8px;
   box-shadow: 0 0 10px black;
-  
 }
 
 .movie-poster a::before {
@@ -339,7 +338,7 @@ body {
   border-bottom-right-radius: 7px;
   font-size: 0.9rem;
   font-family: "Gabarito", sans-serif;
-  
+
   z-index: 5;
 }
 
@@ -369,7 +368,6 @@ body {
 }
 
 .movie-list-container {
-  
   position: relative;
   width: 27%;
   border-radius: 8px;
@@ -418,7 +416,7 @@ input:focus {
 .movie-list {
   width: 100%;
   height: 450px;
-  
+
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -542,6 +540,11 @@ input:focus {
     height: 5px;
   }
 
+  .title-movie-container::before {
+    right: 35px;
+    transform: translateY(-6px);
+  }
+
   .main-section {
     justify-content: center;
     flex-direction: column;
@@ -555,7 +558,8 @@ input:focus {
     gap: 5px;
   }
 
-  .movies-box {
+  .movies-box,
+  .series-box {
     gap: 0;
   }
 
@@ -581,11 +585,7 @@ input:focus {
 /* Untuk layar dengan lebar antara 321px dan 375px */
 @media (min-width: 321px) and (max-width: 375px) {
   html {
-    font-size: 100%;
-  }
-
-  html {
-    font-size: 65%;
+    font-size: 70%;
   }
 
   .navbar-scroll {
@@ -662,6 +662,11 @@ input:focus {
     height: 5px;
   }
 
+  .title-movie-container::before {
+    right: 30px;
+    transform: translateY(-6px);
+  }
+
   .main-section {
     justify-content: center;
     flex-direction: column;
@@ -675,7 +680,8 @@ input:focus {
     gap: 5px;
   }
 
-  .movies-box {
+  .movies-box,
+  .series-box {
     gap: 0;
   }
 
@@ -779,6 +785,11 @@ input:focus {
     height: 5px;
   }
 
+  .title-movie-container::before {
+    right: 20px;
+    transform: translateY(-7px);
+  }
+
   .main-section {
     justify-content: center;
     flex-direction: column;
@@ -792,7 +803,8 @@ input:focus {
     gap: 5px;
   }
 
-  .movies-box {
+  .movies-box,
+  .series-box {
     gap: 0;
   }
 
@@ -896,6 +908,11 @@ input:focus {
     height: 8px;
   }
 
+  .title-movie-container::before {
+    right: 1px;
+    transform: translateY(-8px);
+  }
+
   .main-section {
     justify-content: center;
     flex-direction: column;
@@ -909,19 +926,20 @@ input:focus {
     gap: 5px;
   }
 
-  .movies-box {
+  .movies-box,
+  .series-box {
     gap: 0;
   }
 
   .movie-poster {
-    width: calc(20% - 1%);
-    height: 215px;
+    width: calc(20% - 4%);
+    height: 180px;
     margin: 4px auto;
   }
 
   .rating-poster {
     padding: 6px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .movie-list-container {
