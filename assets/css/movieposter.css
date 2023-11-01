@@ -1,0 +1,278 @@
+.movie-poster1 {
+  background-image: url("/assets/img/Gran\ Turismo\ \(2023\).jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster2 {
+  background-image: url("/assets/img/Ant-Man.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster3 {
+  background-image: url("/assets/img/Avengers\ -\ Age\ of\ Ultron.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster4 {
+  background-image: url("/assets/img/Avengers\ -\ End\ Game.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster5 {
+  background-image: url("/assets/img/Avengers\ -\ Infinity\ War.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster6 {
+  background-image: url("/assets/img/Black\ Panther\ 2018.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster7 {
+  background-image: url("/assets/img/Captain\ America\ Civil\ War.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster8 {
+  background-image: url("/assets/img/Captain\ America.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster9 {
+  background-image: url("/assets/img/Captain\ Marvel.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster10 {
+  background-image: url("/assets/img/Eternals.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster11 {
+  background-image: url("/assets/img/Doctor\ Strange\ -\ Multiverse\ of\ Madness.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster12 {
+  background-image: url("/assets/img/Guardians\ of\ the\ Galaxy.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster13 {
+  background-image: url("/assets/img/Guardians\ of\ the\ Galaxy\ Vol_\ 2\ \(2017\).jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster14 {
+  background-image: url("/assets/img/Iron\ Man\ 3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster15 {
+  background-image: url("/assets/img/Thor.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster16 {
+  background-image: url("/assets/img/Shang-Chi.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster17 {
+  background-image: url("/assets/img/No\ Time\ To\ Die.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster18 {
+  background-image: url("/assets/img/Spider-Man\ No\ Way\ Home.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster19 {
+  background-image: url("/assets/img/Ms\ Marvel.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster20 {
+  background-image: url("/assets/img/Moon\ Knight\ \(2022\).jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.movie-poster21 {
+  background-image: url("/assets/img/Dune\ \(2021\).jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster22 {
+  background-image: url("/assets/img/Doctor\ Strange.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster23 {
+  background-image: url("/assets/img/Free\ Guy.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster24 {
+  background-image: url("/assets/img/Oppenheimer.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster25 {
+  background-image: url("/assets/img/Wakanda\ Forever.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster26 {
+  background-image: url("/assets/img/Joker.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster27 {
+  background-image: url("/assets/img/The\ Dark\ Night.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster28 {
+  background-image: url("/assets/img/Thor\ Love\ and\ Thunder.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster29 {
+  background-image: url("/assets/img/Rogue\ One\ A\ Star\ Wars.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster30 {
+  background-image: url("/assets/img/Thor\ -\ The\ Dark\ World\ \(2013\).jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.movie-poster31 {
+  background-image: url("/assets/img/Uncharted.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster32 {
+  background-image: url("/assets/img/The\ Amazing\ Spiderman.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster33 {
+  background-image: url("/assets/img/Now\ You\ See\ Me\ 2\ \(2016\).jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster34 {
+  background-image: url("/assets/img/Wonder\ Woman.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster35 {
+  background-image: url("/assets/img/WandaVision.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster36 {
+  background-image: url("/assets/img/Dolittle.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+/* .movie-poster37 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster38 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster39 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster40 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster41 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster42 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster43 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster44 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster45 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster46 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster47 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster48 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster49 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster50 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster51 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+
+.movie-poster52 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster53 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster54 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+}
+.movie-poster55 {
+  background-image: url("/assets/img/");
+  background-position: center;
+  background-size: cover;
+} */

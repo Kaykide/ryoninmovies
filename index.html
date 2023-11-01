@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Logo Font -->
+    <link href="https://fonts.cdnfonts.com/css/blanka" rel="stylesheet" />
+
+    <!-- Google Icon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- All Css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/movieposter.css" />
+
+    <title>Ryonin Movies</title>
+  </head>
+  <body>
+    <!-- Start of Navbar -->
+    <div id="navbar" class="navbar">
+      <div class="navbar-nav">
+        <div class="navbar-nav-logo">
+          <a href="index.html">Ryonin Movies</a>
+        </div>
+        <div id="nav-menu" class="nav-menu">
+          <a href="index.html">Home</a>
+          <a href="menupages/genre.html">Genre</a>
+          <a href="menupages/rating.html">Rating</a>
+          <a href="menupages/new-update.html">Latest</a>
+          <a href="menupages/year.html">Year</a>
+        </div>
+        <div id="navbar-extra" class="navbar-extra">
+          <span id="hamburger" class="material-symbols-outlined"> menu </span>
+        </div>
+      </div>
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- Start of Carousel Video -->
+    <div class="video-section">
+      <div class="carousel-control prev" onclick="prevVideo()">
+        <span class="material-symbols-outlined"> arrow_back_ios </span>
+      </div>
+      <div class="video-carousel">
+        <div class="video-slide">
+          <div class="video-title">
+            Gran Turismo
+            <span class="rating-video-section">7.2</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/granturismo.html">
+            <video src="assets/video/Gran Turismo Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            Fair Play
+            <span class="rating-video-section">6.5</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/fairplay.html">
+            <video src="assets/video/Fair Play Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            Haunted Mansion
+            <span class="rating-video-section">6.1</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/hauntedmansion.html">
+            <video src="assets/video/Haunted Mansion Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            Hidden Blade
+            <span class="rating-video-section">6.4</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/hiddenblade.html">
+            <video src="assets/video/Hidden Blade Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            It Lives Inside
+            <span class="rating-video-section">5.3</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/itlivesinside.html">
+            <video src="assets/video/It Lives Inside Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            Prey
+            <span class="rating-video-section">7.1</span>
+            <span class="year-video-section">2022</span>
+          </div>
+          <a href="moviepages/prey.html">
+            <video src="assets/video/Prey Trailer.mp4" autoplay loop></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            The Avengers
+            <span class="rating-video-section">6.3</span>
+            <span class="year-video-section">2012</span>
+          </div>
+          <a href="moviepages/theavengers.html">
+            <video src="assets/video/The Avengers Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            The Burial
+            <span class="rating-video-section">7.1</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/theburial.html">
+            <video src="assets/video/The Burial Trailer.mp4"></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            Transformers: Raise Of The Beasts
+            <span class="rating-video-section">6.1</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/transformers-raiseofthebeasts.html">
+            <video
+              src="assets/video/Transformers Raise Of The Beasts Trailer.mp4"
+            ></video>
+          </a>
+        </div>
+        <div class="video-slide">
+          <div class="video-title">
+            The Last of Us
+            <span class="rating-video-section">8.8</span>
+            <span class="year-video-section">2023</span>
+          </div>
+          <a href="moviepages/thelastofus.html">
+            <video src="assets/video/The Last of Us Trailer.mp4"></video>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-control next" onclick="nextVideo()">
+        <span class="material-symbols-outlined"> arrow_forward_ios </span>
+      </div>
+      <div class="video-dots">
+        <span class="video-dot active"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+        <span class="video-dot"></span>
+      </div>
+    </div>
+    <!-- End of Carousel Video -->
+
+    <!-- Start of Main Section -->
+    <div class="main-section">
+      <!-- Start of Movie Poster -->
+      <div class="movie-container">
+        <div class="title-movie-container">
+          <a href="latestUpdate.html">Hot Movies</a>
+        </div>
+
+        <div class="movies-box">
+          <div class="movie-poster movie-poster1">
+            <div class="rating-poster">7.2</div>
+            <div class="title-movie"><h1>Gran Turismo (2023)</h1></div>
+            <a href="moviepages/granturismo.html"></a>
+          </div>
+          <div class="movie-poster movie-poster2">
+            <div class="rating-poster">7.3</div>
+            <div class="title-movie"><h1>Ant-Man (2015)</h1></div>
+            <a href="moviepages/antman.html"></a>
+          </div>
+          <div class="movie-poster movie-poster3">
+            <div class="rating-poster">7.3</div>
+            <div class="title-movie">
+              <h1>Avengers - Age of Ultron (2015)</h1>
+            </div>
+            <a href="moviepages/avengers-ageofultron.html"></a>
+          </div>
+          <div class="movie-poster movie-poster4">
+            <div class="rating-poster">8.4</div>
+            <div class="title-movie"><h1>Avengers - End Game (2019)</h1></div>
+            <a href="moviepages/avengers-endgame.html"></a>
+          </div>
+          <div class="movie-poster movie-poster5">
+            <div class="rating-poster">8.4</div>
+            <div class="title-movie">
+              <h1>Avengers - Infinity War (2018)</h1>
+            </div>
+            <a href="moviepages/avengers-infinitywar.html"></a>
+          </div>
+          <div class="movie-poster movie-poster6">
+            <div class="rating-poster">7.3</div>
+            <div class="title-movie"><h1>Black Panther (2018)</h1></div>
+            <a href="moviepages/blackpanther.html"></a>
+          </div>
+          <div class="movie-poster movie-poster7">
+            <div class="rating-poster">7.8</div>
+            <div class="title-movie">
+              <h1>Captain America - Civil War (2016)</h1>
+            </div>
+            <a href="moviepages/captainamerica-civilwar.html"></a>
+          </div>
+          <div class="movie-poster movie-poster8">
+            <div class="rating-poster">7.8</div>
+            <div class="title-movie">
+              <h1>Captain America - The Winter Soldier(2014)</h1>
+            </div>
+            <a href="moviepages/captainamerica-thewintersoldier.html"></a>
+          </div>
+          <div class="movie-poster movie-poster9">
+            <div class="rating-poster">6.8</div>
+            <div class="title-movie"><h1>Captain Marvel (2019)</h1></div>
+            <a href="moviepages/captainmarvel.html"></a>
+          </div>
+          <div class="movie-poster movie-poster10">
+            <div class="rating-poster">6.3</div>
+            <div class="title-movie"><h1>Eternals (2021)</h1></div>
+            <a href="moviepages/eternals.html"></a>
+          </div>
+          <div class="movie-poster movie-poster11">
+            <div class="rating-poster">6.9</div>
+            <div class="title-movie">
+              <h1>Doctor Strange - Multiverse of Madness (2022)</h1>
+            </div>
+            <a href="moviepages/doctorstrange-multiverseofmadness.html"></a>
+          </div>
+          <div class="movie-poster movie-poster12">
+            <div class="rating-poster">8</div>
+            <div class="title-movie">
+              <h1>Guardians of the Galaxy (2014)</h1>
+            </div>
+            <a href="moviepages/guardiansofthegalaxy.html"></a>
+          </div>
+          <div class="movie-poster movie-poster13">
+            <div class="rating-poster">7.6</div>
+            <div class="title-movie">
+              <h1>Guardians of the Galaxy - VOL2 (2017)</h1>
+            </div>
+            <a href="moviepages/guardiansofthegalaxy-vol2.html"></a>
+          </div>
+          <div class="movie-poster movie-poster14">
+            <div class="rating-poster">7.1</div>
+            <div class="title-movie"><h1>Iron-Man 3 (2013)</h1></div>
+            <a href="moviepages/ironman3.html"></a>
+          </div>
+          <div class="movie-poster movie-poster15">
+            <div class="rating-poster">7</div>
+            <div class="title-movie"><h1>Thor (2011)</h1></div>
+            <a href="moviepages/thor.html"></a>
+          </div>
+          <div class="movie-poster movie-poster16">
+            <div class="rating-poster">7.4</div>
+            <div class="title-movie"><h1>Shang Chi (2021)</h1></div>
+            <a href="moviepages/shangchi.html"></a>
+          </div>
+          <div class="movie-poster movie-poster17">
+            <div class="rating-poster">7.3</div>
+            <div class="title-movie"><h1>No Time To Die (2021)</h1></div>
+            <a href="moviepages/notimetodie.html"></a>
+          </div>
+          <div class="movie-poster movie-poster18">
+            <div class="rating-poster">8.2</div>
+            <div class="title-movie">
+              <h1>Spider-Man - No Way Home (2021)</h1>
+            </div>
+            <a href="moviepages/spiderman-nowayhome.html"></a>
+          </div>
+        </div>
+        <div class="title-movie-container">
+          <a
+            class="title-movie-container"
+            href="latestUpdate.html"
+            style="margin-top: 25px"
+            >Hot Series</a
+          >
+        </div>
+        <div class="series-box">
+          <div class="movie-poster movie-poster19">
+            <div class="rating-poster">6.3</div>
+            <div class="title-movie">
+              <h1>Ms Marvel (2022)</h1>
+            </div>
+            <a href="moviepages/msmarvel.html"></a>
+          </div>
+          <div class="movie-poster movie-poster20">
+            <div class="rating-poster">7.3</div>
+            <div class="title-movie"><h1>Moon Knight (2022)</h1></div>
+            <a href="moviepages/moonknight.html"></a>
+          </div>
+          <div class="movie-poster movie-poster21">
+            <div class="rating-poster">8</div>
+            <div class="title-movie"><h1>Dune (2021)</h1></div>
+            <a href="moviepages/dune.html"></a>
+          </div>
+          <div class="movie-poster movie-poster22">
+            <div class="rating-poster">7.5</div>
+            <div class="title-movie"><h1>Doctor Strange (2016)</h1></div>
+            <a href="moviepages/doctorstrange.html"></a>
+          </div>
+          <div class="movie-poster movie-poster23">
+            <div class="rating-poster">7.1</div>
+            <div class="title-movie"><h1>Free Guy (2021)</h1></div>
+            <a href="moviepages/freeguy.html"></a>
+          </div>
+          <div class="movie-poster movie-poster24">
+            <div class="rating-poster">8.5</div>
+            <div class="title-movie">
+              <h1>Oppenheimer (2023)</h1>
+            </div>
+            <a href="moviepages/oppenheimer.html"></a>
+          </div>
+
+          <div class="movie-poster movie-poster25">
+            <div class="rating-poster">6.7</div>
+            <div class="title-movie">
+              <h1>Black Panther: Wakanda Forever (2022)</h1>
+            </div>
+            <a href="moviepages/blackpanther-wakandaforever.html"></a>
+          </div>
+          <div class="movie-poster movie-poster26">
+            <div class="rating-poster">8.4</div>
+            <div class="title-movie"><h1>Joker (2019)</h1></div>
+            <a href="moviepages/joker.html"></a>
+          </div>
+          <div class="movie-poster movie-poster27">
+            <div class="rating-poster">9</div>
+            <div class="title-movie"><h1>The Dark Knight (2008)</h1></div>
+            <a href="moviepages/thedarknight.html"></a>
+          </div>
+          <div class="movie-poster movie-poster28">
+            <div class="rating-poster">6.2</div>
+            <div class="title-movie"><h1>Thor: Love and Thunder(2022)</h1></div>
+            <a href="moviepages/thor-loveandthunder.html"></a>
+          </div>
+          <div class="movie-poster movie-poster29">
+            <div class="rating-poster">7.8</div>
+            <div class="title-movie"><h1>Star-Wars: Rogue One (2016)</h1></div>
+            <a href="moviepages/starwars-rogueone.html"></a>
+          </div>
+          <div class="movie-poster movie-poster30">
+            <div class="rating-poster">6.8</div>
+            <div class="title-movie">
+              <h1>Thor: The Dark World (2013)</h1>
+            </div>
+            <a href="moviepages/thor-thedarkworld.html"></a>
+          </div>
+          <div class="movie-poster movie-poster31">
+            <div class="rating-poster">6.3</div>
+            <div class="title-movie">
+              <h1>Uncharted (2022)</h1>
+            </div>
+            <a href="moviepages/uncharted.html"></a>
+          </div>
+          <div class="movie-poster movie-poster32">
+            <div class="rating-poster">6.9</div>
+            <div class="title-movie">
+              <h1>The Amazing Spider-Man (2012)</h1>
+            </div>
+            <a href="moviepages/theamazingspiderman.html"></a>
+          </div>
+
+          <div class="movie-poster movie-poster33">
+            <div class="rating-poster">6.4</div>
+            <div class="title-movie"><h1>Now You See Me 2 (2016)</h1></div>
+            <a href="moviepages/nowyouseeme2.html"></a>
+          </div>
+
+          <div class="movie-poster movie-poster34">
+            <div class="rating-poster">7.4</div>
+            <div class="title-movie"><h1>Wonder Woman (2017)</h1></div>
+            <a href="moviepages/wonderwoman.html"></a>
+          </div>
+          <div class="movie-poster movie-poster35">
+            <div class="rating-poster">7.9</div>
+            <div class="title-movie"><h1>Wanda Vision (2021)</h1></div>
+            <a href="moviepages/wandavision.html"></a>
+          </div>
+          <div class="movie-poster movie-poster36">
+            <div class="rating-poster">5.6</div>
+            <div class="title-movie">
+              <h1>Dolittle (2020)</h1>
+            </div>
+            <a href="moviepages/dolittle.html"></a>
+          </div>
+        </div>
+      </div>
+      <!-- End of Movie Poster -->
+
+      <div id="movie-list-container" class="movie-list-container">
+        <input
+          id="search-bar"
+          type="search"
+          placeholder="Find your favorite movie here"
+        />
+        <span class="material-symbols-outlined search-icon"> search </span>
+        <div class="title-list">
+          <h1>Genres</h1>
+          <span class="material-symbols-outlined segment-icon"> segment </span>
+        </div>
+        <!-- Start of Movie List -->
+        <div class="movie-list">
+          <ul>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Advanture</a></li>
+            <li><a href="#">Animation</a></li>
+            <li><a href="#">Action & Advanture</a></li>
+            <li><a href="#">Crime</a></li>
+            <li><a href="#">Comedy</a></li>
+            <li><a href="#">Documentray</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Fantasy</a></li>
+            <li><a href="#">Family</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Horror</a></li>
+            <li><a href="#">Mystery</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Romance</a></li>
+            <li><a href="#">Sci-Fi</a></li>
+            <li><a href="#">Sci-Fi & Fantasy</a></li>
+            <li><a href="#">Sci-Fi & Action</a></li>
+            <li><a href="#">Thriller</a></li>
+            <li><a href="#">Thriller & Fantasy</a></li>
+            <li><a href="#">War</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End of Movie List -->
+    </div>
+    <!-- End of Main Section -->
+  </body>
+
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/mobile-navbar.js"></script>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/carousel-sound.js"></script>
+</html>
